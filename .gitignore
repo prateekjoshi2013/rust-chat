@@ -1,0 +1,34 @@
+# Ignore compiled binaries and build directory
+/target/
+Cargo.lock
+**/target/
+
+# Ignore .env file if you are using environment variables
+.env
+
+# Ignore Mac OS X hidden files
+.DS_Store
+
+# Ignore Rust log files and core dumps
+*.log
+core
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+*.sublime-*
+
+# Ignore system files
+Thumbs.db
+.DS_Store
+ehthumbs.db
+
+# Ignore Cargo files
+.cargo/
+
+# Ignore Rust toolchain
+.rustup/
+
+# Ignore documentation
+/target/doc/
+/doc/
